@@ -37,5 +37,5 @@ The "PyCitySchool" directory contains the following files and folders:
 3. Also referenced the following for help with ds file 
     - https://gist.github.com/lohenyumnam/2b127b9c3d1435dc12a33613c44e6308
 
-4. ChatGPT was utilized to edit formatting and grammer of Readme and provide tips and explanations for code, specifically in the Score by Spending Analysis I used ".str.replace('[^\d.]','', regex = True).astype(float)" which came from ChatGPT - (2023). ChatGPT (Version GPT-3.5) 
+4. ChatGPT was utilized to edit formatting and grammer of Readme/Written Analysis and provide tips and explanations for code, specifically in the Score by Spending Analysis I used ".str.replace('[^\d.]','', regex = True).astype(float)" which came from ChatGPT - (2023). ChatGPT (Version GPT-3.5) 
     - https://chat.openai.com/chat

@@ -1,6 +1,6 @@
 # Pandas Challenge
 
-#Description
+# Description
 The goal of the PyCity Schools Analysis was to work with school data and standardized testing data to find relationships and pertinent information that aid the school board and Mayor in making strategic decisions regarding future school budgets and priorities.
  
 Our first analysis was the district summary, the results from that summary displayed information such as; total budget, average scores, and total students, from all schools in the district.
@@ -16,7 +16,7 @@ For the Scores by School Size/Spending analyses, we did some calculations and bi
 The final analysis, Scores by School Type, included more calculations to display the average score and percent passing math/reading/overall for each school type. 
 
 
-#Directory Structure
+# Directory Structure
 In the "PyCitySchool" directory, you will find the following:
 
 1. A "Resource" folder: this holds the 2 CSV files that were read in
@@ -24,10 +24,10 @@ In the "PyCitySchool" directory, you will find the following:
 3. A "Written_Analysis_PyCitySchools" Word File: this holds the analysis summary and conclusion
 
 
-#Notes
+# Notes
 For the School Summary analysis, the first task was to write a code that selects all of the school types. I did that, however, not in the most effective way which created a hurdle once I got to the Scores by School Type analysis. I originally extracted the type as a NumPy array which is not hashable. To make the values hashable without going back, I ended up adding code to extract the first element from each inner array using a list comprehension, which I then used to GroupBy instead of the original school type.
 
-#Credits
+# Credits
 1. Most of the code was derived from class materials/activities
 
 2. Referenced the following for help with GroupBys
